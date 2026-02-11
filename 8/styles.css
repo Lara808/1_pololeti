@@ -1,0 +1,19 @@
+body {
+    background-image: url(./images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.scroll-text {
+    background: rgba(212, 206, 206, 0.5);
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+}
+h1 {
+    background: rgba(212, 206, 206, 0.5);
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+}
