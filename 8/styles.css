@@ -10,10 +10,41 @@ body {
     width: 50%;
     text-align: center;
     border-radius: 12px;
+    margin: 0 auto;
 }
 h1 {
     background: rgba(212, 206, 206, 0.5);
     width: 50%;
     text-align: center;
     border-radius: 12px;
+    margin: 0 auto;
+}
+
+.alpha, .opacity {
+    padding: 16px;
+    margin: 12px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    max-width: 720px;
+}
+.alpha {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.opacity {
+    background-color: white;
+    opacity: .5;
+}
+.g {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    margin: 10px auto;
+}
+.linear {
+    background-image: linear-gradient(to right, red, yellow);
+}
+.radial {
+    background-image: radial-gradient(red 20%, yellow);
 }
