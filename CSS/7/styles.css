@@ -1,0 +1,90 @@
+html {
+    font-size: 10pt;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrap {
+    padding: 16px;
+}
+
+h2 {
+    background: red;
+}
+
+a {
+    background: lightblue;
+}
+
+.d1, .a1 {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 12px;
+    padding: 10px;
+    background: pink;
+    width: 180px;
+    height: 80px;
+    margin-top: 80px;
+}
+.radius-box {
+    background: steelblue;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    place-items: center;
+    border-radius: 15%;
+    text-align: center;
+
+
+}
+
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
+.link {
+    text-decoration: none;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1rem;
+}
+.center-box {
+    background: purple;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.center-text {
+    background: lightblue;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    align-content: center;
+}
