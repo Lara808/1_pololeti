@@ -1,12 +1,14 @@
-.login-form {
-    padding: 20px;
-    border-radius: 15px;
-
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 input {
     display: block;
     margin: 8px;
+    box-sizing: border-box;
 }
 
 input[type="email"],
@@ -14,6 +16,13 @@ input[type="password"] {
     width: 260px;
     height: 42px;
     padding: 8px 12px;
-    border: 1px solid darkblue;
-    background-color: lightblue;
+    border: 1px solid rgb(163, 15, 84);
+    background-color: #ffeef5;
+}
+input[type="submit"] {
+    width: 260px;
+    height: 42px;
+    padding: 8px 12px;
+    border: 1px solid darkgreen;
+    background-color: lightgreen;
 }
