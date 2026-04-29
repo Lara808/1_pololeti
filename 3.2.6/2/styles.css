@@ -6,23 +6,23 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: gray;
+    color: rgb(157, 255, 234);
 }
 
 a:active {
     color: blue;
 }
 
-input [type="email"] {
-    border: 2px solid black;
+input[type="email"] {
+    border: 2px solid rgb(39, 255, 172);
     padding: 10px;
     border-radius: 8px;
 }
 
-input [type="email"]:invalid {
-    background-color: aquamarine;
+input[type="email"]:invalid {
+    background-color: rgb(129, 250, 209);
 }
 
-input [type="email"]:valid {
-    background-color: rgb(19, 228, 141);
+input[type="email"]:valid {
+    background-color: rgb(63, 238, 165);
 }
