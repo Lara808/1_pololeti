@@ -1,0 +1,63 @@
+input[type="checkbox"]:checked + span {
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+li:first-child {
+    border: 2px solid rgb(37, 154, 250);
+}
+
+li:last-child {
+    border: 2px solid rgb(116, 79, 248);
+}
+
+li:nth-child(5) {
+    background-color: rgb(167, 167, 250);
+}
+
+.btn-demo {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: rgb(137, 77, 194);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 250ms,
+                transform 250ms;
+
+
+
+}
+
+.btn-demo:hover {
+    background-color: rgb(255, 87, 205);
+    transform: translateY(-2px) translateX(2px);
+}
+
+.card {
+    position: relative;
+    margin-top: 15px;
+    border: solid;
+    background-color: rgba(205, 173, 255);
+    box-shadow: 0 4px 10px rgba(0, green, blue, .12);
+}
+
+.card:hover {
+    border-color: rgba(105, 65, 205);
+    box-shadow: 0 14px 28px rgba(0, 0, 0,.12);
+    background-color: rgb(167, 93, 236);
+    transform: translateY(-10px);
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
